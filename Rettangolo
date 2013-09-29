@@ -1,0 +1,21 @@
+#include<stdlib.h>
+#include<stdio.h>
+
+main()
+
+{
+int b,h,a,p;
+
+printf("Inserisci la base:");
+scanf("%i",&b);
+
+printf("Inserisci l'altezza:");
+scanf("%i",&h);
+
+a=b*h;
+p=(b+h)*2;
+
+printf("Il perimetro calcolato e' di: %i mentre l'area e' di %i.",p,a);
+
+getch();
+}
