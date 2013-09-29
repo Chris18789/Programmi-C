@@ -1,0 +1,21 @@
+#include<stdlib.h>
+#include<stdio.h>
+#include<math.h>
+
+main()
+
+{
+      float l,d;
+      
+      printf("Inserisci il lato");
+      scanf("%f", &l);
+      
+     d=sqrt((l*l)+(l*l));
+      
+      printf("La diagonale e' %2.f",d);
+      
+      system("pause");
+      
+      
+      
+      }
