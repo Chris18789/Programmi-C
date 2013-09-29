@@ -1,0 +1,25 @@
+#include<stdlib.h>
+#include<stdio.h>
+#include<math.h>
+
+main()
+
+{
+      float a,b,c,m;
+      
+      printf("inserisci il primo numero");
+      scanf("%f", &a);
+      printf("inserisci il primo numero");
+      scanf("%f", &b);
+      printf("inserisci il primo numero");
+      scanf("%f", &c);
+      
+      m=(a+b+c)/3;
+      
+      printf("La media dei numeri e': %.2f",m);
+      
+      system("pause");
+      
+      
+      
+      }
