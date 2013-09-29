@@ -1,0 +1,25 @@
+#include<stdlib.h>
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+    int a,b,tmp;
+    
+    printf("Inserisci il valore di a:");
+    scanf("%i",&a);
+    
+     printf("Inserisci il valore di b:");
+    scanf("%i",&b);
+    
+    tmp=a;
+    a=b;
+    b=tmp;
+    
+    printf("Il valore di a e' %i mentre il valore di b e' %i",a,b);
+    
+    
+    
+    
+    getch();
+    }
